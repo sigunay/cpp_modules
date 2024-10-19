@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "5N4U979CaCVSfyw9p8rC_",
+      "type": "text",
+      "x": 527.199951171875,
+      "y": 234,
+      "width": 658.5394287109375,
+      "height": 275,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1Z",
+      "roundness": null,
+      "seed": 2054121656,
+      "version": 326,
+      "versionNonce": 1501545912,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1729079667611,
+      "link": null,
+      "locked": false,
+      "text": "C++ Modules\n\n- C++ 98 standardına uygun yazılacak (g++ -std=c++98 -o proje_adi\nproje_dosyasi.cpp)\n\n- Cppcheck hata kontrolü vs için kullanılabilir. (sudo apt-get install \ncppcheck)\n\n- Amaç nesne tabanlı programlamanın temellerini öğrenmek.\n\n- ",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "C++ Modules\n\n- C++ 98 standardına uygun yazılacak (g++ -std=c++98 -o proje_adi proje_dosyasi.cpp)\n\n- Cppcheck hata kontrolü vs için kullanılabilir. (sudo apt-get install cppcheck)\n\n- Amaç nesne tabanlı programlamanın temellerini öğrenmek.\n\n- ",
+      "autoResize": false,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
