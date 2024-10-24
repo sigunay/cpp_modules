@@ -1,0 +1,78 @@
+Üye fonksiyonları
+(kurucu) Dize nesnesi oluşturur (genel üye işlevi)
+(destructor) String destructor (public üye işlevi)
+operator= String atama (public üye fonksiyon)
+
+Yineleyiciler:
+begin Yineleyiciyi başlangıca döndür (public üye işlev)
+end Return iterator to end (public üye fonksiyon)
+rbegin Ters iteratörü ters başlangıca döndürür (public üye fonksiyon)
+rend Ters iteratörü ters uca döndür (public üye fonksiyon)
+cbegin Başlangıca const_iterator döndürür (public üye fonksiyon)
+cend Sona const_iterator döndür (public üye fonksiyon)
+crbegin Başlangıcı tersine çevirmek için const_reverse_iterator döndür (public üye fonksiyon)
+crend Ters uca const_reverse_iterator döndür (public üye fonksiyon)
+
+Kapasite:
+size Dizenin uzunluğunu döndürür (public üye fonksiyon)
+length Dizenin uzunluğunu döndürür (public üye fonksiyon)
+max_size Dizenin maksimum boyutunu döndürür (public üye fonksiyon)
+resize Dizeyi yeniden boyutlandır (public üye fonksiyon)
+capacity Ayrılan depolama alanının boyutunu döndürür (public üye fonksiyon)
+reserve Kapasite değişikliği talebi (genel üye fonksiyonu)
+clear Dizeyi temizle (public üye işlevi)
+empty Dizenin boş olup olmadığını test eder (public üye fonksiyon)
+shrink_to_fit Sığdırmak için küçült (genel üye işlevi)
+
+Öğe erişimi:
+operator[] Dizenin karakterini al (genel üye işlevi)
+at Dize içinde karakter al (public üye fonksiyon)
+geri Son karaktere erişim (public üye fonksiyonu)
+ön Erişim ilk karakter (genel üye işlevi)
+
+Değiştiriciler:
+operator+= Dizeye ekle (genel üye işlevi)
+append Dizeye ekle (public üye fonksiyon)
+push_back Karakteri dizeye ekle (public üye fonksiyon)
+assign Dizeye içerik ata (public üye fonksiyon)
+insert Insert into string (public üye fonksiyon)
+erase Dizeden karakter silme (public üye fonksiyon)
+replace Dizenin bir kısmını değiştir (public üye fonksiyon)
+swap Dize değerlerini değiştir (public üye fonksiyon)
+pop_back Son karakteri sil (public üye fonksiyonu)
+
+String işlemleri:
+c_str C string eşdeğerini al (public üye fonksiyon)
+data Get string data (public üye fonksiyon)
+get_allocator Ayırıcı al (public üye fonksiyon)
+copy Dizeden karakter dizisini kopyala (public üye fonksiyon)
+find String içinde içerik bul (public üye fonksiyon)
+rfind Dize içinde içeriğin son geçtiği yeri bul (public üye fonksiyon)
+find_first_of Dize içinde karakter bulma (public üye fonksiyon)
+find_last_of Dize içinde sondan itibaren karakter bulma (public üye fonksiyon)
+find_first_not_of Karakter dizisi içinde olmayan karakteri bulur (public üye fonksiyon)
+find_last_not_of Dize içinde eşleşmeyen karakteri sondan itibaren bul (public üye fonksiyon)
+substr Alt dize oluştur (public üye fonksiyon)
+compare Dizeleri karşılaştır (public üye fonksiyon)
+
+Translated with www.DeepL.com/Translator (free version)
+--------------------------------------------------------------------------------
+Kullanılacaklar :
+
+Verilen link: std::string - C++ Reference
+
+Öne çıkan string fonksiyonları:
+
+string.length(): String uzunluğunu döndürür.
+string.substr(): String'in bir alt dizisini döndürür.
+string.append(): String'in sonuna başka bir string ekler.
+string.find(): String içinde bir karakter veya alt dizi arar.
+
+
+
+Öne çıkan iomanip fonksiyonları:
+
+std::setw(int n): Çıktının genişliğini belirler, yani sütunları hizalamak için kullanılır.
+std::right ve std::left: Çıktıyı sağa veya sola hizalar.
+std::setfill(char c): Çıktıda boşlukları belirtilen karakterle doldurur.
+--------------------------------------------------------------------------------

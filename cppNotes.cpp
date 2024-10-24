@@ -38,3 +38,58 @@
 // }
 //------------------------------------------------------------------------------
 
+// **STANDARD STRİNG**
+// += operatoru veya append ile stringe ekleme yapılabilir.
+
+// int main() {
+// 	std::string	str = "selam";
+// 	str.append(" naber?");
+// 	str += " iyidir senden?";
+// 	std::cout << str << std::endl;
+// }
+//------------------------------------------------------------------------------
+
+
+// **STRİNG**
+
+// int main (){
+// 	std::string name = "Ali";
+// 	std::string surname = "Kabak";
+// 	std::string pNumber = "+905467286273";
+
+// 	std::string fullName = name + " " + surname;
+// 	std::cout << fullName << std::endl;
+
+// 	std::string code = pNumber.substr(0, 3);
+// 	std::cout << "Phone number code: " << code << std::endl;
+
+// 	std::cout << "Phone number length: " << pNumber.length() << std::endl;
+
+// 	size_t	pos = pNumber.find("5467286273");
+// 	if (pos != std::string::npos) {
+// 		std::cout << "numara bulundu!" << std::endl;
+// 	} else {
+// 		std::cout << "numara bulunamadı" << std::endl;
+// 	}
+// 	return 0;
+// }
+//------------------------------------------------------------------------------
+
+
+// **I/O MANİPULATORS**
+// #include <iomanip>
+
+// int main (){
+// 	std::string name = "Ali";
+// 	std::string surname = "Kabak";
+// 	std::string pNumber = "5467286273";
+
+// 	std::cout	<< std::setw(10) << std::right << "Name" << " | "
+// 				<< std::setw(10) << std::right << "Surname" << " | "
+// 				<< std::setw(10) << std::right << "Number" << " | " << std::endl;
+// 	std::cout	<< std::setw(10) << std::right << name << " | "
+// 				<< std::setw(10) << std::right << surname << " | "
+// 				<< std::setw(10) << std::right << pNumber << " | " << std::endl;
+// 	return 0;
+// }
+//------------------------------------------------------------------------------
