@@ -1,3 +1,3 @@
 all:
 	@clear
-	c++ *.cpp -Wall -Wextra -Werror -o megaphone
+	@c++ *.cpp -Wall -Wextra -Werror -o megaphone
