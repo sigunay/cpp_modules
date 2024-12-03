@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "OZksSZa4dkL9zR49Z2yCQ",
+      "type": "text",
+      "x": 480,
+      "y": -39.59999084472656,
+      "width": 801.29931640625,
+      "height": 425,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 326623518,
+      "version": 648,
+      "versionNonce": 1122539166,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1732396161171,
+      "link": null,
+      "locked": false,
+      "text": "Pointer ve referans arasındaki temel farklar\n\nDecleration:\n    -pointer null olarak başlatılabilir.\n    - referans bilidirimde başlatılmalıdır.\nSyntax:\n    - pointerlarda value / adress erişimi için \"*\" / \"&\" kullanılmalıdır.\n    - referanslarda özel bir syntax yoktur. orijinal değer için bir takma\n        ad gibi çalışır ve kendi bellek adresi yoktur. yani orijinal değişkene\n        erişmekten farkı yoktur.\n\nKullanım durumları:\n    - Bir işaretçi, değere erişmek için dereferanslama gerektirir .stringPTR*\n    - Bir referans orijinal değişken gibi kullanılabilir .stringREF\n* Dinamik tahsis için veya yeniden atama gerektiğinde işaretçileri kullanın.\n* Değişkenlere takma ad vermek veya değişmezlik sağlamak için referansları kullanın.\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Pointer ve referans arasındaki temel farklar\n\nDecleration:\n    -pointer null olarak başlatılabilir.\n    - referans bilidirimde başlatılmalıdır.\nSyntax:\n    - pointerlarda value / adress erişimi için \"*\" / \"&\" kullanılmalıdır.\n    - referanslarda özel bir syntax yoktur. orijinal değer için bir takma\n        ad gibi çalışır ve kendi bellek adresi yoktur. yani orijinal değişkene\n        erişmekten farkı yoktur.\n\nKullanım durumları:\n    - Bir işaretçi, değere erişmek için dereferanslama gerektirir .stringPTR*\n    - Bir referans orijinal değişken gibi kullanılabilir .stringREF\n* Dinamik tahsis için veya yeniden atama gerektiğinde işaretçileri kullanın.\n* Değişkenlere takma ad vermek veya değişmezlik sağlamak için referansları kullanın.\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

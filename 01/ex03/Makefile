@@ -1,16 +1,16 @@
-NAME        := zombie
+NAME        := a.out
 CC         := c++
 FLAGS    := -Wall -Wextra -Werror -std=c++98
 
-SRCS        :=      main.cpp \
-                          Zombie.cpp \
-                          zombieHorde.cpp \
+SRCS        :=      HumanA.cpp \
+                          HumanB.cpp \
+                          main.cpp \
+                          Weapon.cpp \
                           
 OBJS        := ${SRCS:.cpp=.o}
 
 .cpp.o:
 	@${CC} ${FLAGS} -c $< -o ${<:.cpp=.o}
-
 
 CLR_RMV		:= \033[0m
 RED		    := \033[1;31m
@@ -26,14 +26,19 @@ ${NAME}:	${OBJS}
 			@echo "$(GREEN)$(NAME) created[0m ✔️"
 
 all:		${NAME}
+
+bonus:		all
+
 clean:
 			@ ${RM} *.o */*.o */*/*.o
 			@ echo "$(RED)Deleting $(CYAN)$(NAME) $(CLR_RMV)objs ✔️"
+
 fclean:		clean
 			@ ${RM} ${NAME}
 			@ echo "$(RED)Deleting $(CYAN)$(NAME) $(CLR_RMV)binary ✔️"
-f:			fclean
 
 re:			fclean all
 
-.PHONY:		all clean fclean f re
+.PHONY:		all clean fclean re
+
+

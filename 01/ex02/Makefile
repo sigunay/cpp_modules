@@ -1,10 +1,8 @@
-NAME        := zombie
+NAME        := a.out
 CC         := c++
 FLAGS    := -Wall -Wextra -Werror -std=c++98
 
 SRCS        :=      main.cpp \
-                          Zombie.cpp \
-                          zombieHorde.cpp \
                           
 OBJS        := ${SRCS:.cpp=.o}
 
@@ -32,8 +30,7 @@ clean:
 fclean:		clean
 			@ ${RM} ${NAME}
 			@ echo "$(RED)Deleting $(CYAN)$(NAME) $(CLR_RMV)binary ✔️"
-f:			fclean
-
+f: 			fclean
 re:			fclean all
 
-.PHONY:		all clean fclean f re
+.PHONY:		all clean fclean re f
