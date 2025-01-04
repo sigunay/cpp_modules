@@ -1,7 +1,8 @@
-NAME        := harl
+NAME        := fixed
 CC         := c++
 FLAGS    := -Wall -Wextra -Werror -std=c++98
-SRCS        :=      Harl.cpp \
+
+SRCS        :=      Fixed.cpp \
                           main.cpp \
                           
 OBJS        := ${SRCS:.cpp=.o}
@@ -24,8 +25,6 @@ ${NAME}:	${OBJS}
 
 all:		${NAME}
 
-bonus:		all
-
 clean:
 			@ ${RM} *.o */*.o */*/*.o
 			@ echo "$(RED)Deleting $(CYAN)$(NAME) $(CLR_RMV)objs ✔️"
@@ -34,8 +33,10 @@ fclean:		clean
 			@ ${RM} ${NAME}
 			@ echo "$(RED)Deleting $(CYAN)$(NAME) $(CLR_RMV)binary ✔️"
 
-f:			fclean
+f: 		fclean
 
 re:			fclean all
 
 .PHONY:		all clean fclean f re
+
+
