@@ -1,0 +1,30 @@
+Ex01: Dünyayı ateşe vermek istemiyorum
+Her zaman olduğu gibi, programın beklendiği gibi çalıştığını kanıtlamak için yeterli testleri içeren bir ana fonksiyon olmalıdır. Eğer
+yoksa, bu alıştırmaya not vermeyin. Arayüz olmayan herhangi bir sınıf ortodoks kanonik sınıf formunda değilse, bu alıştırmaya not vermeyin.
+Somut Hayvan
+Brain adında yeni bir sınıf var.
+Cat ve Dog gerekli private Brain niteliğine sahiptir.
+Brain niteliği Animal sınıfının içinde olmamalıdır.
+Brain sınıfının oluşturma ve silme sırasında belirli çıktıları vardır.
+///////////
+Somut Beyin
+Bir Kedi veya Köpek kopyası derin bir kopya olmalıdır.
+Şöyle bir şey test edin:
+Köpek temel;
+{
+Dog tmp = basic
+}
+Kopyalama yüzeysel ise, tmp ve basic aynı Brain'i kullanacak ve Brain scope'un sonunda tmp ile birlikte silinecektir.
+Copy constructor da derin bir kopyalama yapmalıdır.
+Bu nedenle ortodoks kanonik formda temiz bir uygulama sizi saatlerce süren acıdan kurtaracaktır.
+///////////
+Destruction chaining
+Animal ve ondan türetilen sınıflardaki yıkıcılar sanaldır.
+Virtual anahtar sözcüğü olmadan ne olacağına dair bir açıklama isteyin.
+Test edin.
+Atama ve kopya
+Kedi ve Köpeğin kopyalama ve atama davranışları konunun gerektirdiği gibidir.
+Derin kopya, Kedi veya Köpek için yeni bir Beyin oluşturmanız gerektiği anlamına gelir.
+Kanonik formun gerçekten uygulanıp uygulanmadığını kontrol edin (yani boş
+kopya atama operatörleri ve benzeri). Hiçbir şey sebepsiz yere herkese açık olmamalıdır. Üstelik bu kod çok basit, bu yüzden temiz olması gerekiyor!
+//////////

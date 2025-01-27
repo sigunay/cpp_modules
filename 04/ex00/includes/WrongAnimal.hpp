@@ -11,7 +11,7 @@ public:
 	WrongAnimal();
 	WrongAnimal(const WrongAnimal &wrongAnimal);
 	WrongAnimal &operator=(const WrongAnimal &wrongAnimal);
-	virtual ~WrongAnimal();
+	~WrongAnimal();
 // Member Functions
 	std::string getType() const;
 	void makeSound() const;
