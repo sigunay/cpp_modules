@@ -1,0 +1,19 @@
+Ör02: Soyut sınıf
+Her zaman olduğu gibi, programın beklendiği gibi çalıştığını kanıtlamak
+için yeterli testleri içeren bir ana fonksiyon olmalıdır. Eğer yoksa,
+bu alıştırmaya not vermeyin.
+
+Arayüz olmayan herhangi bir sınıf ortodoks kanonik sınıf formunda değilse,
+bu alıştırmaya not vermeyin.
+
+Abstract class
+Tam olarak konudaki gibi bir Animal sınıfı vardır.
+Animal :: makeSound saf bir sanal fonksiyondur.
+Şöyle görünmelidir : virtual void makeSound() const = 0;
+“= O” kısmı zorunludur.
+Bir Animal sınıfını örnekleyememelisiniz.
+Animal test; //sınıfın soyut olmasıyla ilgili bir derleme hatası vermelidir
+////
+Concrete Animal
+Kedi ve Köpek sınıfı hala mevcuttur ve ex02'deki gibi çalışır.
+////
