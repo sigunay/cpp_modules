@@ -11,11 +11,9 @@ int main (int argc, char **argv) {
 		for (int i = 1; i < argc; i++)
 		{
 			input = argv[i];
-			for (std::string::size_type j = 0; j < input.length(); j++)
+			for (unsigned int j = 0; j < input.length(); j++)
 				input[j] = toupper(input[j]);
 			std::cout << input;
-			if (i < argc - 1)
-				std::cout << " ";
 		}
 	}
 	std::cout << std::endl;

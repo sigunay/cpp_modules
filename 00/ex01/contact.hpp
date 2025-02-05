@@ -5,8 +5,7 @@
 #include <iostream>
 
 // class
-class Contact
-{
+class Contact {
 private:
 	std::string	name;
 	std::string	surname;
@@ -14,6 +13,12 @@ private:
 	std::string	number;
 	std::string	darkestSecret;
 public:
+	Contact() {
+		std::cout << "Contact created!" << std::endl;
+	}
+	~Contact() {
+		std::cout << "Contact destroyed!" << std::endl;
+	}
 	void setName (const std::string &arg);
 	void setSurname (const std::string &arg);
 	void setNickName (const std::string &arg);

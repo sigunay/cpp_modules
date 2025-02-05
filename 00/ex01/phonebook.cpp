@@ -13,6 +13,12 @@
 #include "phonebook.hpp"
 #include <iomanip>
 #include <limits>
+#include <cstdlib>
+
+// Constructor
+PhoneBook::PhoneBook() {
+	contactIndex = 0;
+}
 
 void PhoneBook::addContact (){
 	Contact newContact;

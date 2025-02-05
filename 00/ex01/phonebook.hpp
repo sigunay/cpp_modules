@@ -4,13 +4,12 @@
 //libraries
 #include "contact.hpp"
 
-class PhoneBook
-{
+class PhoneBook {
 private:
 	Contact	person[8];
 	int	contactIndex;
 public:
-	PhoneBook () : contactIndex(0) { }
+	PhoneBook();	// hatalı!!! yalnızca bildirim olmalı tanım değil
 	void addContact ();
 	void searchContact ();
 };
